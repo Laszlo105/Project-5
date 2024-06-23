@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <link rel="stylesheet" href="REDO.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="brightseiham.jpg" alt="Bright Seiham Logo">
+        </div>
+        <nav>
+            <ul>
+                <li><a href="INDEX.html">Home page</a></li>
+                <li><a href="information.html">Information</a></li>
+                <li><a href="about.html">About us</a></li>
+                <li class="active"><a href="contact.html">Contact us</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section>
+        <div class="container">
+            <h1>Want to know more about PIXELS!<br> OR Reach out to us, Contact US.</h1>
+            <form class="contact-form" id="contactForm" onsubmit="return validateForm()" method="POST">
+                <label for="name">Name</label>
+                <input type="text" id="name" name="name">
+
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email">
+
+                <label for="phone">Phone Number</label>
+                <input type="tel" id="phone" name="phone">
+
+                <label for="message">Message</label>
+                <textarea id="message" name="message"></textarea>
+
+                <button type="submit">Submit Now</button>
+            </form>
+            <div class="contact-info">
+                <p>Or you can also contact us via Email: <a href="mailto:info@brightseiham.com">info@brightseiham.com</a></p>
+                <p>Phone: 080-456-7890</p>
+            </div>
+        </div>
+    </section><br><br><br><br>
+    <footer>
+        <p>&copy; 2024 PIXELS. All rights reserved.</p>
+    </footer>
+    <script src="REDO.js"></script>
+</body>
+</html>
